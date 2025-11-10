@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore large data/model files
+*.pkl
+*.h5
+*.pt
+*.onnx
+*.csv
+*.zip
+*.tar
+*.gz
+
+# Ignore caches
+__pycache__/
+*.pyc
+
+# Ignore local configs
+.ipynb_checkpoints/
+.DS_Store
+*.log
